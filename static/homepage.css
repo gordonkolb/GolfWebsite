@@ -1,0 +1,62 @@
+
+/* Set a background image by replacing the URL below */
+body {
+    background: url('https://i.ibb.co/HF5BFs2/banner-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    /*https://source.unsplash.com/twukN12EN7c/1920x1080*/
+}
+
+div.one {
+    margin-top: 100px;
+}
+
+div.two {
+    margin-top: 45px;
+}
+
+div.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+    color: #DAAD86;
+    text-align: center;
+}
+
+
+nav.navbar {
+    background-color: #DAAD86 !important;
+    border-color: #DAAD86 !important;
+    min-height: 40px;
+    max-height: 50px;
+}
+
+nav.navbar a{
+    color: black !important;
+    font-size: 20px !important;
+    justify-content: center;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    display: initial !important;
+    padding: 14px 30px !important;
+    text-decoration:none;
+}
+
+
+nav.navbar a:hover {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white !important;
+    background-color : transparent !important; 
+    max-height: 20px;
+}
+

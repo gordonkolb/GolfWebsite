@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/static/typeahead.js"></script>
+    <script type="text/javascript" src="/static/app.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/index.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="/static/test.css">
+
+    
+</head>
+<body>
+
+
+
+    <form class="example" method="post" action="">
+        <input type="search" class="form-control" id="form1" placeholder="Search by golf course" name="course">
+        
+    </form>
+
+    <div class="main">
+        
+        <div class="header">
+            <img src="images/header-text.png" alt="">
+            <img src="images/dots.png" alt="">
+        </div>
+        <div class="container">
+            <form id="booking-form" class="booking-form" method="POST">
+                <div class="form-group">
+                    <!--
+                        <div class="form-destination">
+                        <label for="destination">Destination</label>
+                        <input type="text" id="destination" name="destination" placeholder="EG. HAWAII" />
+                    </div>
+                    -->
+                    <div class="input-course">
+                        <form class="example" method="post" action="">
+                            <label for="input-course">Course</label>
+                            <input type="search" class="form-control" id="form1" placeholder="Search by golf course" name="course">
+                            
+                            </button>
+                        </form>
+                        
+                        <p></p>
+                    </div>
+                    <div class="form-date-from form-icon">
+                        <label for="date_from">From</label>
+                        <input type="text" id="date_from" class="date_from" placeholder="Pick a date" />
+                        <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
+                    </div>
+                    <div class="form-date-to form-icon">
+                        <label for="date_to">To</label>
+                        <input type="text" id="date_to" class="date_to" placeholder="Pick a date" />
+                        <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
+                    </div>
+                    <div class="form-quantity">
+                        <label for="quantity">Quantity</label>
+                        <span class="modify-qty plus" onClick="Tang()"><i class="zmdi zmdi-chevron-up"></i></span>
+                        <input type="number" name="quantity" id="quantity" value="0" min="0" class="nput-text qty text">
+                        <span class="modify-qty minus" onClick="Giam()"><i class="zmdi zmdi-chevron-down"></i></span>
+                    </div>
+                    <div class="form-submit">
+                        <input type="submit" id="submit" class="submit" value="Book now" />
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="static/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" script src="/static/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

@@ -1,0 +1,76 @@
+body {
+    background: url('https://i.ibb.co/HF5BFs2/banner-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+
+
+    /*https://source.unsplash.com/twukN12EN7c/1920x1080*/
+}
+
+
+
+tbody tr:nth-child(even) {
+    background-color: #e5e5e5;
+}
+tbody tr:nth-child(odd) {
+    background-color: #bad9eb;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    /*border: 1px solid #cecfd5;*/
+    padding: 10px 15px;
+  }
+
+  tbody td{
+    border-collapse: collapse;
+    border: 1px solid #cecfd5;
+    vertical-align: middle;
+    font-size: 20px;
+  }
+
+  .center {
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table th {
+    background: #395870;
+    background: linear-gradient(#dab99d, #d89051); /*(#49708f, #293f50)*/
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+
+  table th:first-child {
+    border-top-left-radius: 5px;
+  }
+
+  table th:last-child {
+    border-top-right-radius: 5px;
+  }
+
+  
+
+  tfoot tr:last-child td:last-child{
+    border-bottom-right-radius: 5px;
+  }
+
+  tfoot tr:last-child td:first-child{
+    border-bottom-left-radius: 5px;
+  }
+
+  tfoot {
+    background: #395870;
+    background: linear-gradient(#dab99d, #d89051);
+    color: #fff;
+  }
