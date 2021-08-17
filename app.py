@@ -154,8 +154,8 @@ def enterNewScore():
 
 @app.route('/courses.json', methods=['GET', 'POST'])
 def senbackjson():
-    mycursor.execute("USE " + "foo" + ";")
-    mycursor.execute("SELECT name from people")
+    mycursor.execute("USE " + "handicap" + ";")
+    mycursor.execute("SELECT DISTINCT course from scores")
     data = mycursor.fetchall()
     courses = []
     for course in data:
@@ -183,5 +183,5 @@ def enterNewScore():
     return render_template("enterScores.html")
 '''
 if __name__ == "__main__":
-   app.run(debug=1) #export FLASK_ENV=development
+   app.run(debug=True) #export FLASK_ENV=development, export FLASK_APP=app
 
